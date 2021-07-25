@@ -9,7 +9,7 @@ export default function Footer(){
             <a
             href="https://github.com/zucar0"
             target="_blank"
-            rel="author"
+            rel="noreferrer"
             >
             Powered by{''}
             <span className={styles.logo}>Antonio Enríquez</span>
