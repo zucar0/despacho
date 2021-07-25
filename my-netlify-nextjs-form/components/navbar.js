@@ -25,6 +25,21 @@ export default function Navbar(){
             <Link href="/contacto">
                 <a>Contacto</a>
             </Link>
+            <style>
+                {`
+                    nav{
+                        padding-top: 10px;
+                        width: 100%;
+                        
+                    }
+                    a{
+                        padding: 0 10px;
+                    }
+                    a:hover{
+                        color: #86BC25;
+                    }
+                `}
+            </style>
         </nav>
     )
 }
